@@ -11,7 +11,6 @@ import plotly.graph_objects as go
 import yfinance as yf
 import datetime
 import keras
-import tensorflow as tf
 from keras.preprocessing.sequence import TimeseriesGenerator
 import numpy as np
 from keras.models import Sequential
