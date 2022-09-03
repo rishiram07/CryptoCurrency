@@ -26,7 +26,7 @@ def app():
     expander_bar = st.expander("About")
     expander_bar.markdown(
         """
-    * **This Project was done by 20pd32 and 20pd25**
+    * **This Project was done by Sriram**
     """
     )
 
@@ -53,9 +53,7 @@ def app():
     data = soup.find("script", id="__NEXT_DATA__", type="application/json")
     coins = {}
     coin_data = json.loads(data.contents[0])
-    listings = coin_data["props"]["initialState"]["cryptocurrency"]["listingLatest"][
-        "data"
-    ]
+    listings = coin_data["props"]["initialState"]["cryptocurrency"]["listingLatest"]["data"]
 
     attributes = listings[0]["keysArr"]
     index_of_id = attributes.index("id")

@@ -388,7 +388,7 @@ def app():
     expander_bar = st.expander("About")
     expander_bar.markdown(
         """
-    * **This Project was done by 20pd32 and 20pd25**
+    * **This Project was done by Sriram**
     """
     )
 

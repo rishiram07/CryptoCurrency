@@ -19,7 +19,7 @@ st.set_page_config(layout="wide")
 
 
 
-app.add_page("Home",crypto.app)
+# app.add_page("Home",crypto.app)
 app.add_page("Analysis",eda.app)
 app.add_page("Forecasting",model.app)
 app.add_page("Live Data",live.app)
