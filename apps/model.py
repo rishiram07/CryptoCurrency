@@ -312,7 +312,7 @@ def app():
     if coin == 'WBTC-USD':
         df = df_wbtc.copy()
 
-    st.subheader("Model for Crypto Currency Closing Prices Using RNN")
+    st.subheader("Model for Crypto Currency Closing Prices Using LSTM")
 
     close_data = df['Close'].values
     close_data = close_data.reshape((-1,1))
