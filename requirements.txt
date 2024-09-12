@@ -7,6 +7,6 @@ plotly-express==0.4.1
 yfinance==0.1.70
 streamlit==1.9.2
 tensorflow-cpu==2.17.0
-keras==2.9.0
+keras==3.5.0
 numpy==1.26.4
 setuptools==74.1.2
